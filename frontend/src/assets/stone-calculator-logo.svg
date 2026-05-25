@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Stone Calculator logo</title>
+  <desc id="desc">A faceted stone mark with a compact calculator grid.</desc>
+  <rect width="64" height="64" rx="18" fill="#0F766E"/>
+  <path d="M17 22.5L27.8 14H45.5L52 25.2L43.2 50H20.7L12 31.5L17 22.5Z" fill="#CCFBF1"/>
+  <path d="M17 22.5H33.5L27.8 14L17 22.5Z" fill="#F8FAFC"/>
+  <path d="M33.5 22.5H52L45.5 14H27.8L33.5 22.5Z" fill="#99F6E4"/>
+  <path d="M12 31.5H27.5L20.7 50L12 31.5Z" fill="#5EEAD4"/>
+  <path d="M27.5 31.5H52L43.2 50H20.7L27.5 31.5Z" fill="#14B8A6"/>
+  <path d="M17 22.5L12 31.5H27.5L33.5 22.5H17Z" fill="#2DD4BF"/>
+  <path d="M33.5 22.5L27.5 31.5H52V25.2L33.5 22.5Z" fill="#0D9488"/>
+  <rect x="30" y="30" width="19" height="16" rx="4" fill="#0F172A"/>
+  <rect x="34" y="34" width="11" height="2.5" rx="1.25" fill="#CCFBF1"/>
+  <rect x="34" y="39" width="3" height="3" rx="1" fill="#5EEAD4"/>
+  <rect x="39" y="39" width="3" height="3" rx="1" fill="#5EEAD4"/>
+  <rect x="44" y="39" width="3" height="3" rx="1" fill="#5EEAD4"/>
+  <path d="M17 22.5L27.8 14H45.5L52 25.2L43.2 50H20.7L12 31.5L17 22.5Z" stroke="#042F2E" stroke-width="2" stroke-linejoin="round"/>
+</svg>

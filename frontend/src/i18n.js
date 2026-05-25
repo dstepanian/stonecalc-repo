@@ -10,7 +10,7 @@ export const LANGUAGES = [
 export const COPY = {
   en: {
     languageLabel: 'Language',
-    heroBadge: 'StoneCalc',
+    heroBadge: 'Stone Calculator',
     heroTitle: 'Volume & Weight Calculator',
     heroSubtitle:
       'Quickly estimate the mass of quarried blocks using precise geometry, density, and a delightful UI.',
@@ -60,6 +60,20 @@ export const COPY = {
         },
         delete: 'Delete',
       },
+      features: {
+        customMaterialTitle: 'Custom material',
+        materialNamePlaceholder: 'Material name',
+        densityPlaceholder: 'Density',
+        addMaterial: 'Add',
+        materialAdded: 'Custom material added.',
+        invalidMaterial: 'Add a material name and a density greater than 0.',
+        localSaved: 'Backend unavailable. Saved locally on this device.',
+        localMode: 'Backend unavailable. Showing local saved results.',
+        localBadge: 'Local',
+        projectTitle: 'Project total',
+        items: 'Items',
+        moreSaved: 'more saved',
+      },
       materials: {
         granite: 'Granite',
         marble: 'Marble',
@@ -69,6 +83,7 @@ export const COPY = {
       },
       errors: {
         default: 'Error contacting server',
+        invalidInput: 'Enter values greater than 0 for the active fields.',
       },
     },
     units: {
@@ -80,7 +95,7 @@ export const COPY = {
   },
   hy: {
     languageLabel: 'Լեզու',
-    heroBadge: 'StoneCalc',
+    heroBadge: 'Քարի հաշվիչ',
     heroTitle: 'Ծավալ և կշիռ հաշվարկիչ',
     heroSubtitle:
       'Արագ գնահատեք քարե բլոկների զանգվածը ճշգրիտ երկրաչափությամբ, խտությամբ և հաճելի միջերեսով։',
@@ -130,6 +145,20 @@ export const COPY = {
         },
         delete: 'Ջնջել',
       },
+      features: {
+        customMaterialTitle: 'Սեփական նյութ',
+        materialNamePlaceholder: 'Նյութի անուն',
+        densityPlaceholder: 'Խտություն',
+        addMaterial: 'Ավելացնել',
+        materialAdded: 'Սեփական նյութը ավելացվեց։',
+        invalidMaterial: 'Ավելացրեք նյութի անուն և 0-ից մեծ խտություն։',
+        localSaved: 'Սերվերը հասանելի չէ։ Պահվեց այս սարքում։',
+        localMode: 'Սերվերը հասանելի չէ։ Ցուցադրվում են տեղական պահված արդյունքները։',
+        localBadge: 'Տեղական',
+        projectTitle: 'Նախագծի ընդհանուր',
+        items: 'Քանակ',
+        moreSaved: 'ևս պահված',
+      },
       materials: {
         granite: 'Գրանիտ',
         marble: 'Մարմար',
@@ -139,6 +168,7 @@ export const COPY = {
       },
       errors: {
         default: 'Սերվերի հետ կապի սխալ',
+        invalidInput: 'Մուտքագրեք 0-ից մեծ արժեքներ ակտիվ դաշտերի համար։',
       },
     },
     units: {
@@ -150,7 +180,7 @@ export const COPY = {
   },
   ru: {
     languageLabel: 'Язык',
-    heroBadge: 'StoneCalc',
+    heroBadge: 'Калькулятор камня',
     heroTitle: 'Калькулятор объема и веса',
     heroSubtitle:
       'Быстро оценивайте массу каменных блоков с точной геометрией, плотностью и современным интерфейсом.',
@@ -200,6 +230,20 @@ export const COPY = {
         },
         delete: 'Удалить',
       },
+      features: {
+        customMaterialTitle: 'Свой материал',
+        materialNamePlaceholder: 'Название материала',
+        densityPlaceholder: 'Плотность',
+        addMaterial: 'Добавить',
+        materialAdded: 'Материал добавлен.',
+        invalidMaterial: 'Укажите название материала и плотность больше 0.',
+        localSaved: 'Сервер недоступен. Сохранено локально на этом устройстве.',
+        localMode: 'Сервер недоступен. Показаны локально сохранённые результаты.',
+        localBadge: 'Локально',
+        projectTitle: 'Итого по проекту',
+        items: 'Позиции',
+        moreSaved: 'ещё сохранено',
+      },
       materials: {
         granite: 'Гранит',
         marble: 'Мрамор',
@@ -209,6 +253,7 @@ export const COPY = {
       },
       errors: {
         default: 'Ошибка связи с сервером',
+        invalidInput: 'Введите значения больше 0 для активных полей.',
       },
     },
     units: {
@@ -220,7 +265,7 @@ export const COPY = {
   },
   ka: {
     languageLabel: 'ენა',
-    heroBadge: 'StoneCalc',
+    heroBadge: 'ქვის კალკულატორი',
     heroTitle: 'მოცულობის და წონის კალკულატორი',
     heroSubtitle:
       'ქვის ბლოკების მასას სწრაფად შეაფასეთ ზუსტი გეომეტრიით, სიმკვრივით და თანამედროვე ინტერფეისით.',
@@ -270,6 +315,20 @@ export const COPY = {
         },
         delete: 'წაშლა',
       },
+      features: {
+        customMaterialTitle: 'საკუთარი მასალა',
+        materialNamePlaceholder: 'მასალის სახელი',
+        densityPlaceholder: 'სიმკვრივე',
+        addMaterial: 'დამატება',
+        materialAdded: 'საკუთარი მასალა დაემატა.',
+        invalidMaterial: 'დაამატეთ მასალის სახელი და 0-ზე მეტი სიმკვრივე.',
+        localSaved: 'სერვერი მიუწვდომელია. შენახულია ამ მოწყობილობაზე.',
+        localMode: 'სერვერი მიუწვდომელია. ნაჩვენებია ადგილობრივად შენახული შედეგები.',
+        localBadge: 'ადგილობრივი',
+        projectTitle: 'პროექტის ჯამი',
+        items: 'რაოდენობა',
+        moreSaved: 'კიდევ შენახულია',
+      },
       materials: {
         granite: 'გრანიტი',
         marble: 'მარმარილო',
@@ -279,6 +338,7 @@ export const COPY = {
       },
       errors: {
         default: 'სერვერთან კავშირის შეცდომა',
+        invalidInput: 'აქტიურ ველებში შეიყვანეთ 0-ზე მეტი მნიშვნელობები.',
       },
     },
     units: {
