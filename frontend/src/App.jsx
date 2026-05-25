@@ -25,20 +25,20 @@ export default function App() {
     <div className="min-h-screen overflow-x-hidden px-3 py-4 text-slate-900 transition-colors sm:px-6 sm:py-6 lg:px-8 dark:bg-slate-950 dark:text-slate-100">
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-4">
         <header className="flex flex-col gap-4 pb-2">
-          <div className="flex items-center justify-between gap-3">
-            <div className="flex items-center gap-2">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex min-w-0 items-center gap-2">
               <img
                 src={logo}
                 alt=""
-                className="h-9 w-9 rounded-xl shadow-sm"
+                className="h-9 w-9 shrink-0 rounded-xl shadow-sm"
               />
-              <p className="text-sm font-semibold text-slate-950 dark:text-white">
+              <p className="truncate text-sm font-semibold text-slate-950 dark:text-white">
                 {locale.heroBadge}
               </p>
             </div>
 
-            <div className="flex items-center gap-2">
-            <div className="flex rounded-full border border-slate-200 bg-white p-1 shadow-sm dark:border-slate-700 dark:bg-slate-900">
+            <div className="flex items-center justify-between gap-2 sm:justify-end">
+            <div className="flex shrink-0 rounded-full border border-slate-200 bg-white p-1 shadow-sm dark:border-slate-700 dark:bg-slate-900">
               {['light', 'dark'].map((option) => (
                 <button
                   key={option}
@@ -59,7 +59,7 @@ export default function App() {
               <button
                 key={option.code}
                 type="button"
-                className={`grid h-9 w-9 place-items-center rounded-full border bg-white shadow-sm transition hover:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-600/10 dark:bg-slate-900 ${
+                className={`grid h-8 w-8 shrink-0 place-items-center rounded-full border bg-white shadow-sm transition hover:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-600/10 sm:h-9 sm:w-9 dark:bg-slate-900 ${
                   language === option.code
                     ? 'border-teal-600 ring-2 ring-teal-600/20 dark:border-teal-300'
                     : 'border-slate-200 dark:border-slate-700'
@@ -71,7 +71,7 @@ export default function App() {
                 <img
                   src={FLAG_SRC[option.code]}
                   alt=""
-                  className="h-4 w-6 rounded-[2px] object-cover"
+                  className="h-3.5 w-5 rounded-[2px] object-cover sm:h-4 sm:w-6"
                   loading="lazy"
                 />
               </button>
